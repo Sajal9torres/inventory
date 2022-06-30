@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: #193050;
+  height: 95vh;
+  width: 300px;
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  color: white;
+}
+
+.menu {
+  margin: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu > svg {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.contact {
+  margin: 1rem 2rem;
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+}
+
+.contact > p {
+  font-size: 1.3rem;
+}
+.contact > div {
+  margin: 0.3rem 0;
+}
+.contact > div > svg {
+  margin-right: 0.5rem;
+}
