@@ -61,11 +61,131 @@
 
 .person > p:nth-child(1) {
   font-weight: bold;
-  font-size: large; 
+  font-size: large;
 }
 .person > p:nth-child(2) {
   color: #f19709;
   font-size: small;
   margin-left: 0.2rem;
-  
+}
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.transation {
+  width: 25%;
+  background-color: #193050;
+  border-radius: 30px;
+}
+
+.transaction-history {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.transaction-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 1rem 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.5rem;
+  width: 80%;
+  margin: 20px 0;
+}
+p {
+  color: white;
+}
+
+.select-box {
+  margin-right: 1rem;
+}
+.charts {
+  background-color: #f19709;
+  width: 70%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 3;
+}
+
+.right {
+  display: flex;
+  align-items: flex-start;
+  flex: 3;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.item-qty {
+  font-size: 12px;
+  margin-top: 0.5rem;
+  color: #f19709;
+}
+
+.time {
+  background-color: white;
+  border-radius: 10px;
+  color: #193050;
+  font-size: 12px;
+  padding: 0.1rem 0.2rem;
+}
+.select-box {
+  margin-right: 1rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.select-box:focus,
+.select-box:visited {
+  border: none;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+.search-field {
+  font-size: 14px;
+  border: none;
+}
+
+.search-field::placeholder {
+  text-align: center;
+}
+.icon {
+  background-color: #fff;
+  color: black;
+  font-size: 12px;
+  height: 16px;
 }

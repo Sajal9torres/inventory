@@ -6,6 +6,8 @@ import dot from "../../image/Dot.png";
 import downarrow from "../../image/downarrow.png";
 
 import "./dashboard.css";
+import { BsSearch } from "react-icons/bs";
+import HistoryItem from "../../Components/transaction history/history";
 
 function Dashboard() {
   return (
@@ -19,7 +21,7 @@ function Dashboard() {
             <div className="notification">
               <img src={notification} alt="" />
               <img className="dot" src={dot} alt="" />
-              <img className="downarrow"src={downarrow} alt=""/>
+              <img className="downarrow" src={downarrow} alt="" />
             </div>
             <div className="profile">
               <img
@@ -32,7 +34,71 @@ function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="content">content</div>
+          <div className="content">
+            <div className="transation">
+              <div className="transaction-history">
+                <p className="transaction-title">Transaction History</p>
+                <div className="items">
+                  <div className="item">
+                    <div className="left">
+                      <select className="select-box" name="Recent" id="">
+                        <option value="recent">Recent</option>
+                      </select>
+                    </div>
+                    <div className="right">
+                      <div className="search">
+                        <input
+                          className="search-field"
+                          type="search"
+                          name=""
+                          id=""
+                          placeholder="Invoice No"
+                        />
+                        <BsSearch className="icon" />
+                      </div>
+                    </div>
+                  </div>
+                  <HistoryItem
+                    itemName="RGB Color"
+                    itemQty={100}
+                    status="Sold"
+                    time="10:30 pm"
+                  />
+                  <HistoryItem
+                    itemName="RB Color"
+                    itemQty={100}
+                    status="Sold"
+                    time="10:30 pm"
+                  />
+                  <HistoryItem
+                    itemName="RGB Color"
+                    itemQty={100}
+                    status="Sold"
+                    time="10:30 pm"
+                  />
+                  <HistoryItem
+                    itemName="RGB Color"
+                    itemQty={100}
+                    status="Sold"
+                    time="10:30 pm"
+                  />
+                  <HistoryItem
+                    itemName="RGB Color"
+                    itemQty={100}
+                    status="Sold"
+                    time="10:30 pm"
+                  />
+                  <HistoryItem
+                    itemName="RGB Color"
+                    itemQty={100}
+                    status="Sold"
+                    time="10:30 pm"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="charts"></div>
+          </div>
         </div>
       </div>
     </div>
