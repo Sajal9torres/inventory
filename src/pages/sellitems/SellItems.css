@@ -1,5 +1,15 @@
+.main-1{
+  display: flex;
+}
+.left {
+  width: 70%;
+  padding: 10px;
+  padding-right: 20px;
+  border-right: 6px solid #193050;
+  height: 70vh;
+}
 .tables {
-  width: 65%;
+  width: 100%;
 }
 .table2 {
   /* width: 25%; */
@@ -8,5 +18,55 @@
 }
 
 .table-x {
-  width: 25% !important;
+  width: 30% !important;
+}
+.data {
+  margin-bottom: 10px;
+}
+.data > p {
+  color: black !important;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  width: 90%;
+  justify-content:space-evenly;
+  margin-top: 10px;
+}
+
+.btn-x {
+  background-color: #193050 !important ;
+  color: white !important;
+}
+.right1{
+  width: 30%;
+  height: 57vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.right-table >p{
+  color: black;
+  font-weight: bold;
+}
+.rt-table >p{
+  color: black;
+  text-align: center;
+  
+}
+.rt-table{
+  box-shadow: 10px 7px 11px 3px rgba(207,207,207,0.85);
+-webkit-box-shadow: 10px 7px 11px 3px rgba(207,207,207,0.85);
+-moz-box-shadow: 10px 7px 11px 3px rgba(207,207,207,0.85);
+}
+.table-y{
+  width: 30vh;
+  border-bottom: 3px solid #193050;
+}
+.total >p{
+  text-align: center;
+  color:black;
+}
+.preview-contact >p{
+  color: black;
 }
