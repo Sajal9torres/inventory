@@ -1,0 +1,12 @@
+.tables {
+  width: 65%;
+}
+.table2 {
+  /* width: 25%; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-x {
+  width: 25% !important;
+}

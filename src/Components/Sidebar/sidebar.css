@@ -11,16 +11,25 @@
   color: white;
 }
 
-.menu {
+#menu {
+  text-decoration: none;
   margin: 2rem;
   font-size: 1.5rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: white;
 }
-.menu > svg {
+#menu:hover {
+  color: #f19709;
+}
+#menu > svg {
   font-size: 2rem;
   margin-right: 20px;
+}
+
+.active {
+  color: #f19709 !important;
 }
 
 .contact {

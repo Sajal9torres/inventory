@@ -7,31 +7,52 @@ import {
   MdSettings,
 } from "react-icons/md";
 import { BsFillBagCheckFill, BsFillTelephoneFill } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="menus">
-        <div className="menu">
+        <NavLink
+          id="menu"
+          to="/"
+          className={({ isActive }) => (isActive ? "active" : "inactive")}
+        >
           <MdDashboard />
           Dashbaord
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink
+          id="menu"
+          to="/sellitems"
+          className={({ isActive }) => (isActive ? "active" : "inactive")}
+        >
           <BsFillBagCheckFill />
           Sell Item
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink
+          id="menu"
+          to="/purchaseitem"
+          className={({ isActive }) => (isActive ? "active" : "inactive")}
+        >
           <MdSell />
           Purchase Item
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink
+          id="menu"
+          to="/mystock"
+          className={({ isActive }) => (isActive ? "active" : "inactive")}
+        >
           <MdOutlineStorefront />
           My Stock
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink
+          id="menu"
+          to="/settings"
+          className={({ isActive }) => (isActive ? "active" : "inactive")}
+        >
           <MdSettings />
           Settings
-        </div>
+        </NavLink>
       </div>
       <div className="contact">
         <p>Contact:</p>

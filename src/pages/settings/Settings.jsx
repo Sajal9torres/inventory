@@ -1,13 +1,11 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import notification from "../../image/Vector.png";
 import dot from "../../image/Dot.png";
 import downarrow from "../../image/downarrow.png";
-import "./dashboard.css";
-import Navbar from "../../Components/Navbar/Navbar";
-import Home from "../Home/Home";
 
-function Dashboard() {
+const SellItems = () => {
   return (
     <div className="App">
       <Navbar />
@@ -32,11 +30,11 @@ function Dashboard() {
               </div>
             </div>
           </div>
-          <Home />
+          <div>Settings</div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Dashboard;
+export default SellItems;

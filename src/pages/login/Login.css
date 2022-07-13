@@ -1,0 +1,120 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #80baef;
+}
+
+.top-bar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5rem;
+}
+
+.avatar {
+  margin-right: 2rem;
+}
+
+.avatar > svg {
+  font-size: 25px;
+  margin-right: 0.4rem;
+}
+
+.language {
+  text-transform: uppercase;
+}
+
+.login-container {
+  height: 92vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 534px;
+  height: 365px;
+  border-radius: 68px;
+  background-color: #193050;
+  position: relative;
+}
+
+.login > svg {
+  font-size: 60px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  top: -6%;
+  right: 45%;
+}
+
+.form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15%;
+}
+
+.login-form {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input > input {
+  margin: 0.4rem;
+  border: none;
+  padding: 1rem 5rem;
+}
+
+.input > input::placeholder {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.input > svg {
+  font-size: 3rem;
+  background-color: #f0f0f0;
+  position: absolute;
+  left: 0;
+}
+
+.forgot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.4rem;
+}
+.checkbox > input {
+  margin-right: 0.4rem;
+}
+
+.forgot-password > a {
+  text-decoration: none;
+  color: white;
+}
+.forgot-password > a:hover {
+  color: #f19709;
+}
