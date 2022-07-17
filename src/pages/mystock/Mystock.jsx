@@ -4,6 +4,12 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 import notification from "../../image/Vector.png";
 import dot from "../../image/Dot.png";
 import downarrow from "../../image/downarrow.png";
+import { AiOutlineSearch } from "react-icons/ai";
+import "./Mystock.css";
+import { BiSave } from "react-icons/bi";
+import { AiFillDelete } from "react-icons/ai";
+import { BsFillPlusCircleFill } from "react-icons/bs";
+import { HiRefresh } from "react-icons/hi";
 
 const Mystock = () => {
   return (
@@ -30,7 +36,116 @@ const Mystock = () => {
               </div>
             </div>
           </div>
-          <div>My stock</div>
+          <div>
+            <div className="Stock-search1">
+              <div className="search1">
+                <input
+                  className="search-field1"
+                  type="search"
+                  name=""
+                  id=""
+                  placeholder=""
+                />
+                <AiOutlineSearch className="stock-icon1" />
+              </div>
+            </div>
+            <div className="purchase-tables">
+              <table class="table table-bordered mt-3 ">
+                <thead>
+                  <tr className="mystock-header">
+                    <th scope="col">S.No</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="purchase-buttons2">
+            <div className="purchase-buttons1">
+              <button className="btn btn-1">
+                Save <BiSave />
+              </button>
+            </div>
+            <div className="purchase-buttons1">
+              <button className="btn btn-1">
+                Delete <AiFillDelete />
+              </button>
+            </div>
+            <div className="purchase-buttons1">
+              <button className="btn btn-1">
+                Add <BsFillPlusCircleFill />
+              </button>
+            </div>
+            <div className="purchase-buttons1">
+              <button className="btn btn-1">
+                Update <HiRefresh />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

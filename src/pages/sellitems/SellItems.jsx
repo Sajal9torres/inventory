@@ -88,7 +88,7 @@ const SellItems = () => {
             </div>
           </div>
           <div className="main-1">
-            <div className="left">
+            <div className="left1">
               <div className="data">
                 <p>Date:-</p>
                 <p>Invoice Number:-</p>
@@ -132,11 +132,11 @@ const SellItems = () => {
                           class="text-center"
                           scope="col"
                         >
-                          Product
+                          Total Amount
                         </th>
                         <td class="text-center">Rs.300 </td>
                       </tr>
-                      <tr>
+                      {/* <tr>
                         <th
                           style={{ backgroundColor: "#EEEDE7" }}
                           class="text-center"
@@ -145,8 +145,8 @@ const SellItems = () => {
                           Quantity
                         </th>
                         <td class="text-center">200</td>
-                      </tr>
-                      <tr>
+                      </tr> */}
+                      {/* <tr>
                         <th
                           style={{ backgroundColor: "#EEEDE7" }}
                           class="text-center"
@@ -155,7 +155,7 @@ const SellItems = () => {
                           Due Amount
                         </th>
                         <td class="text-center">Rs.50 </td>
-                      </tr>
+                      </tr> */}
                     </thead>
                   </table>
                 </div>
@@ -215,6 +215,11 @@ const SellItems = () => {
                     <p>9890988889</p>
                     <p>9890988889</p>
                   </div>
+                </div>
+                <div className="button preview-button">
+                  <button className="btn btn-x">
+                    Print <BsFillPrinterFill />
+                  </button>
                 </div>
               </div>
             </div>

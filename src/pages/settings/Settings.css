@@ -1,0 +1,42 @@
+.myaccount > p {
+  color: black;
+  height: 6vh;
+  font-size: x-large;
+  align-items: center;
+  font-weight: 500;
+}
+.myaccount {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.myaccounticon {
+  margin-right: 20px;
+}
+.darkmode {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.darkmode > p {
+  color: black;
+  height: 6vh;
+  font-size: x-large;
+  align-items: center;
+  font-weight: 500;
+}
+.darkmodeicon {
+  margin-right: 20px;
+}
+.logout{
+   margin-top: 40px;
+  margin-left: 40px;
+}
+.logout >p{
+  color: black;
+  height: 6vh;
+  font-size: x-large;
+  align-items: center;
+  font-weight: 500;
+}
+.logouticon{
+  margin-right: 20px;
+}

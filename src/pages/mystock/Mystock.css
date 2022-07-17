@@ -1,0 +1,30 @@
+.search1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.search-field1 {
+  border-left: 1px solid #141414;
+  border-top: 1px solid #141414;
+  border-bottom: 1px solid #141414;
+  height: 30px;
+  box-shadow: inset 0 0 3px #141414, 3px 3px 5px 0 white;
+}
+.stock-icon1 {
+  background-color: #193050;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+}
+.mystock-header {
+  background-color: #193050;
+  color: white;
+}
+.purchase-buttons2 {
+  display: flex;
+  margin-top: 5vh;
+  height: 10vh;
+  width: 100%;
+  justify-content: flex-end;
+}

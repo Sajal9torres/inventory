@@ -1,7 +1,7 @@
-.main-1{
+.main-1 {
   display: flex;
 }
-.left {
+.left1 {
   width: 70%;
   padding: 10px;
   padding-right: 20px;
@@ -30,7 +30,7 @@
 .buttons {
   display: flex;
   width: 90%;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   margin-top: 10px;
 }
 
@@ -38,35 +38,39 @@
   background-color: #193050 !important ;
   color: white !important;
 }
-.right1{
+.right1 {
   width: 30%;
-  height: 57vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  }
-.right-table >p{
+  margin-top: 3rem;
+}
+.right-table > p {
   color: black;
   font-weight: bold;
 }
-.rt-table >p{
+.rt-table > p {
   color: black;
   text-align: center;
-  
 }
-.rt-table{
-  box-shadow: 10px 7px 11px 3px rgba(207,207,207,0.85);
--webkit-box-shadow: 10px 7px 11px 3px rgba(207,207,207,0.85);
--moz-box-shadow: 10px 7px 11px 3px rgba(207,207,207,0.85);
+.rt-table {
+  box-shadow: 10px 7px 11px 3px rgba(207, 207, 207, 0.85);
+  -webkit-box-shadow: 10px 7px 11px 3px rgba(207, 207, 207, 0.85);
+  -moz-box-shadow: 10px 7px 11px 3px rgba(207, 207, 207, 0.85);
 }
-.table-y{
+.table-y {
   width: 30vh;
   border-bottom: 3px solid #193050;
 }
-.total >p{
+.total > p {
   text-align: center;
-  color:black;
-}
-.preview-contact >p{
   color: black;
+}
+.preview-contact > p {
+  color: black;
+}
+.preview-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
